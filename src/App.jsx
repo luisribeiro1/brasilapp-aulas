@@ -12,11 +12,11 @@ export default function App() {
       <Header />
       <div className="container py-4">
         <Routes>
-          <Route path="/"                element={<Dashboard />} />
-          <Route path="/estados/:uf"     element={<EstadoPage />} />
-          <Route path="/municipios/:id"  element={<MunicipioPage />} />
-          <Route path="/favoritos"       element={<FavoritosPage />} />
-          <Route path="/useeffect"      element={<ExemploUseEffect />} />
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/estados/:uf" element={<EstadoPage />} />
+          <Route path="/municipios/:id" element={<MunicipioPage />} />
+          <Route path="/favoritos" element={<FavoritosPage />} />
+          <Route path="/useeffect" element={<ExemploUseEffect />} />
         </Routes>
       </div>
     </>
